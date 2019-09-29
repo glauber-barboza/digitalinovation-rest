@@ -17,5 +17,15 @@ dependencies {
     //Trabalhar com java WEB
     //Ja contem a lib do Jackson
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    //Hateoas
+    implementation 'org.springframework.hateoas:spring-hateoas'
+    implementation 'org.springframework.plugin:spring-plugin-core'
+
+    //Trabalhar com banco de dados
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    //H2
+    runtime 'com.h2database:h2:1.0.60'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

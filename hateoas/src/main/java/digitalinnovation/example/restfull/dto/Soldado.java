@@ -1,10 +1,20 @@
 package digitalinnovation.example.restfull.dto;
 
 public class Soldado {
+    private Long id;
     private String cpf;
     private String nome;
     private String raca;
     private String arma;
+    private String status;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getCpf() {
         return cpf;
@@ -36,5 +46,13 @@ public class Soldado {
 
     public void setArma(String arma) {
         this.arma = arma;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }
